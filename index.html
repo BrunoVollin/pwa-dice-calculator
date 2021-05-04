@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src='app.js'></script>
+</head>
+<body>
+    <header>
+        <h1>Projeto D6</h1>
+    </header>
+
+    <div id="content">
+        <h2 id="result">0</h2>
+        <div id="output">
+            <input class="textview" id="numbers" name='textview' wrap="hard">
+            <input class="textview" id="dices" name='textview'>
+        </div>
+        <div id="input">
+            <div id="line">
+                <button  class="myButton" onclick="onClick(4)">D4</button>
+                <button  class="myButton" onclick="onClick(6)">D6</button>
+                <button  class="myButton" onclick="onClick(8)">D8</button>
+            </div>
+            <div id="line">
+                <button  class="myButton" onclick="onClick(10)">D10</button>
+                <button  class="myButton" onclick="onClick(12)">D12</button>
+                <button  class="myButton" onclick="onClick(20)">D20</button>
+            </div>
+            <div id="line">
+                <button  class="myButton" onclick="modifySignal(true)">+</button>
+                <button  class="myButton" onclick="reset()">res</button>
+                <button  class="myButton" onclick="modifySignal(false)">-</button>
+            </div>
+            
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
