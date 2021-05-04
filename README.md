@@ -1,6 +1,6 @@
 # pwa-rpg-calculator
 
-## 🚧 👷 Em construção
+## 🚧 👷 Construction in progress 
 
 ## 🎨🖌️ Layout
 
