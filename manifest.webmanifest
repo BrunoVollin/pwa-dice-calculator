@@ -3,8 +3,8 @@
   "short_name": "Projeto D6 pwa",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#fff",
-  "description": "Projeto sobre pwa ",
+  "background_color": "#ffff",
+  "description": "Projeto do Bruno sobre pwa",
   "icons": [{
       "src": "./img/logo.png",
       "type": "image/png",
